@@ -1,0 +1,19 @@
+input::placeholder {
+    opacity: 0.2;
+}
+
+body {
+    background: #FFFFFF;
+}
+
+#loading {
+    visibility: hidden;
+}
+
+
+
+
+.export-btn {
+    border-radius: 0 !important;
+    border-bottom: 0;
+}
