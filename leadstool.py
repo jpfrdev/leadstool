@@ -20,6 +20,7 @@ def get_leads():
 
 
 @app.route('/leadstool/', methods=['GET'])
+@app.route('/', methods=['GET'])
 def get_leadstool_page():
     return render_template('leadstool.html')
 
